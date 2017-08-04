@@ -65,7 +65,7 @@ namespace Tools
         static void Main(string[] args)
         {
             //Task task = MDPStreams.query(args);
-            //task.Wait();
+            ///task.Wait();
             StreamReader inputReader = new StreamReader(@"D:\Contest\4.txt");
             StreamWriter outputWriter = new StreamWriter(@"D:\Contest\4.solution.txt");
 
